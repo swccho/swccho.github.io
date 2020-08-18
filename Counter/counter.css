@@ -1,0 +1,30 @@
+#addNum{
+    border: 8px solid gray;
+    height: 200px;
+    width: 160px;
+    background-color: darkslategrey;
+    position: relative;
+    left: 28%;
+    color: white;
+    text-align: center;
+    opacity: .7;
+    
+}
+.bg{
+    border: 1px solid black;
+    box-shadow: 0 0 10px;
+    position: absolute;
+    padding: 40px;
+    bottom: 22%;
+    left: 30%;
+    height: 400px;
+}
+#add,#less{
+font-size: 30px;
+margin: 5px;
+padding: 5px;
+}
+.pos{
+    position: relative;
+    top: 20%;
+}

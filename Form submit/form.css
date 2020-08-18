@@ -1,0 +1,76 @@
+h1,form{
+    text-align: center;
+}
+.input1 , .input2, .input3{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 2%;
+    border: none;
+    border-right: 3px solid;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+}
+.icon1{
+    
+    padding: 11px;
+    position: relative;
+    left: 5.4px;
+    top: 1px;
+    background-color: grey; 
+    color:white;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+    
+
+}
+.icon2{
+    
+    padding: 11px;
+    position: relative;
+    left: 5.5px;
+    top: 1px;
+    background-color: grey; 
+    color:white;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+}
+.icon3{
+    
+    padding: 11px;
+    position: relative;
+    left: 5.5px;
+    top: 0.8px;
+    background-color: grey; 
+    color:white;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+}
+.submit{
+    display: block;
+    width: 80%;
+    height: 10%;
+    position: relative;
+    left: 10%;
+    border: 3px solid grey;
+    border-radius:10px ;
+    opacity: .6;
+}
+.submit:hover{
+    background-color: greenyellow;
+    border: 3px solid greenyellow;
+    font-size: large;
+    font-weight: bold;
+    transition: .6s ease;
+    color:black;
+    opacity: 1;
+}
+.card{
+    margin-left: 10%;
+    
+    width: 300px;
+    height: 250px;
+}
+.center{
+    text-align: center;
+}

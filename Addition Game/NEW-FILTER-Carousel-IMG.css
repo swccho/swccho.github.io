@@ -1,0 +1,77 @@
+.inline-div{
+    display: inline;
+   
+}
+.btn-all, .btn-farcry, .btn-resident-evil, .btn-last-of-us{
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: brown;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    
+    
+}
+button:hover{
+    background-color: rgb(240, 232, 232);
+    color: teal;
+    transition: .4s ease;
+}
+.Add-Img{
+
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 2%;
+background-color: black;
+
+}
+.Add-Img > img{
+    width: 348.8px;
+    height: 200px;
+    
+}
+.active{
+    display: block !important;
+}
+.modal{
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    display: none;
+    border-radius: 20px;
+    border: 8px solid rgb(83, 83, 107);
+    height: 678px;
+    margin: 5%;
+    width: 1100px;
+    
+}
+.modal> img{
+    width: 100%;
+    height: 678px;
+    display: none;
+
+}
+.cross{
+    position: absolute;
+    
+    border: none;
+    font-size: 50px;
+    
+   
+    color: red;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    
+}
+.cross:hover{
+    opacity: 1;
+    color: darkred;
+    transition: .3s ease;
+    background-color: white;
+       
+}

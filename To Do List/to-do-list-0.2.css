@@ -1,0 +1,58 @@
+.input1{
+    width: 60%;
+    height: 6%;
+    
+}
+.btn1{
+    position: absolute;
+    left: 80%;
+}
+.btnClear{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.h4-items{
+    border-top:2px solid grey ;
+    border-bottom:2px solid grey ;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right:20% ;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    padding-bottom: 5px;
+}
+.check{
+    font-size: 20px;
+    position: relative;
+    top: -36px;
+    left: 20%;
+    
+    
+}
+.trash{
+    font-size: 20px;
+    position: relative;
+    top: -36px;
+    left: 22%;
+}
+.fa-pencil-square-o{
+    font-size: 20px;
+    position: relative;
+    top: -36px;
+    left: 24%;
+    color: blue;
+
+}
+.fa-star{
+    font-size: 20px;
+    position: relative;
+    top: -36px;
+    left: 26%;
+    color: silver;
+}
+
+.gold{
+    color: gold!important; 
+}

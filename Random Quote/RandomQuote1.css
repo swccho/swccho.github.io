@@ -1,0 +1,10 @@
+.br{
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    
+    border-radius: 15px;
+}

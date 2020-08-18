@@ -1,0 +1,59 @@
+body{
+    margin: 10%;
+}
+h2{
+    margin-left: 5%;
+    margin-top: 5%;
+   margin-bottom: 3%;
+}
+.Qbox{
+    border: 1px solid tomato;
+    margin-top:100px ;
+    margin-right: 400px;
+    height: 550px;
+    border-radius: 10px;
+    display: none;
+    
+}
+.question{
+    margin-left: 5%;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    outline: tomato;
+    
+}
+.answer{
+    margin-left: 5%;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    outline: tomato;
+    
+}
+.btn-outline-info{
+    margin-left: 5%;
+    width: 20%;
+}
+.Abox{
+    border: 1px solid;
+    padding: 50px;
+   
+    display: none;
+}
+.active{
+    display: block !important;
+}
+#ShowAns{
+    display: none;
+}
+.fa-times-circle{
+float: right;
+font-size: 30px;
+margin-top: 2px;
+margin-right: 2px;
+border: none;
+color: red;
+}
+.fa-times-circle:hover{
+    font-size: 40px;
+    transition: 0.1s;
+}

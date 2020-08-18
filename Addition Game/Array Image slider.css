@@ -1,0 +1,51 @@
+.next{
+    font-size: 25px;
+    background-color:rgb(17, 215, 250) ;
+    border: none;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 86.2%;
+    color: black;
+}
+.next:hover{
+    
+    color: white;
+}
+.prev{
+    font-size: 25px;
+    background-color:rgb(17, 215, 250) ;
+    border: none;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 11.8%;
+    color: black;
+}
+.prev:hover{
+    
+    color: white;
+}
+#slider{
+    border: 15px solid rgb(17, 215, 250);
+    width: 1000px;
+    border-radius: 20px;
+    height: 500px;
+    position: relative;
+    left: 12%;
+    top: 8%;
+}
+
+#slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: none;
+}
+
+.active{
+    display: block!important;
+}

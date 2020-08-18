@@ -1,0 +1,48 @@
+.center{
+    border: 5px solid grey;
+    width: 800px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    left: 20%;
+    top: 30%;
+}
+#input1{
+    width: 70%;
+    height: 10%;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    background-color: rgb(197, 184, 184);
+    color: white;
+    text-shadow: 2px 0 2px black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#Enter{
+    position: relative;
+    bottom: 3.5px;
+    right: 5px;
+    width: 150px;
+    height: 10%;
+    border: none;
+    font-size: 20px;
+    background-color: lightgreen;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Slist{
+    font-size: 30px;
+    list-style-type: none;
+    text-align: justify;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 6%;
+
+}
+.fa-trash{
+    position: relative;
+    bottom: 35px;
+    left: 30%;
+}

@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Carousel</title>
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
+<link rel="stylesheet" href="filter-img-carousel.css">
+<body>
+    <button onclick="show('all')">All</button>
+    <button onclick="show('FarCry')">Farcry</button>
+    <button onclick="show('Resident Evil')">Resident Evil</button>
+    <div id="add">
+    </div>
+    <br>
+    <div id="imgModal" class='modal animate__animated animate__zoomIn'>
+        <div id="images"></div>
+       <button class="btn1" onclick="next()">Next</button>
+       <button class="btn2" onclick="prev()">prev</button>
+    </div>
+    
+    <script src="filter-img-carousel.js"></script>
+</body>
+</html>

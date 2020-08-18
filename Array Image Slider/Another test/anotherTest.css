@@ -1,0 +1,98 @@
+
+.btn-align{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    list-style-type: none;
+    justify-content: center;
+    display: block;
+    
+    padding: 10px;
+    background-color: lightseagreen;
+}
+.btn1{
+    color: white;
+    
+    border: none;
+    background-color: lightseagreen;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+li{
+    display: inline;
+}
+.btn1:hover{
+    background-color: white;
+    color: lightseagreen;
+}
+.addImg{
+
+margin: 3%;
+
+}
+.img-size{
+    width: 394px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+.modalImg{
+    position: absolute;
+    left: 3.5%;
+    top: 19%;
+    border-radius: 15px;
+    
+    height: 620px;
+    width: 1231px;
+    display: none;
+    
+}
+.modalImg > img{
+    width: 100%;
+    display: none;
+    height: 620px;
+}
+.active{
+    display: block !important;
+}
+.cross{
+    position: absolute;
+    left: 97%;
+    font-size: 30px;
+    color: white;
+    
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cross:hover{
+    color: darkred;
+    background-color: white;
+    transition: .3s ease;
+}
+.btn2, .btn3{
+    
+    border: none;
+    font-size: 30px;    
+}
+.btn2:hover, .btn3:hover{
+    color: white;
+    background-color: coral;
+    border: none;
+    font-size: 30px;
+    transition: .4s ease;
+}
+.btn2{
+    position: absolute;
+    left: 98.2%;
+    top: 51%;
+    border: none;
+}
+.btn3{
+    position: absolute;
+    border: none;
+    top: 51%;
+}

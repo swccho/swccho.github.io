@@ -1,0 +1,50 @@
+.input1{
+    width: 70%;
+    height: 7%;
+    border: 3px solid grey;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius: 10px;
+}
+.btn1{
+    height: 7%;
+    position: relative;
+    top: -3px;
+    right: 6px;
+}
+#addNewList{
+    
+    margin-left: 12%;
+    margin-right: 18.2%;
+    
+    margin-bottom: 5%;
+    text-align: justify;
+}
+.h3-s{
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    
+}
+.pos-check{
+    position: relative;
+    left: 85%;
+    bottom: 39px;
+    font-size: 20px;
+    
+}
+.pos-trash{
+    position: relative;
+    left: 87%;
+    bottom: 39px;
+    font-size: 20px;
+    
+}
+.pos-edit{
+    position: relative;
+    left: 89%;
+    bottom: 39px;
+    font-size: 20px;
+    
+}

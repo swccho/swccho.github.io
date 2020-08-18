@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<style>
+    body{
+        background-color: blueviolet;
+    }
+    
+    #center{
+        background-color: tomato;
+        border-radius: 50px;
+        border: 2px solid tomato;
+        width: 400px;
+        position: relative;
+        left: 25%;
+        margin: 10%;
+    }
+    #input1{
+        margin-left: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        width: 80%;
+        height: 40px;
+    }
+    #input2{
+        margin-left: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        width: 80%;
+        height: 40px;
+    }
+    #textarea{
+        margin-left: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    #btn1{
+        position: relative;
+        margin-right: 5%;
+        border: none;
+        padding: 5%;
+        border-radius: 20px;
+        background-color: red;
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    #btn2{
+        position: relative;
+        margin-left: 5%;
+        border: none;
+        padding: 5%;
+        border-radius: 20px;
+        background-color: yellow ;
+        font-size: 20px;
+        margin-bottom: 5%;
+        
+    }
+    
+</style>
+<body>
+    <div style="text-align: center;" id="center">
+        <h1>Please Contact Me</h1>
+        <br>
+        <div style="text-align: justify; ">
+           <p style="margin-left: 5%; font-size: 20px;margin-bottom: 0;"> Name</p> 
+           <input type="text" placeholder="Name" id="input1">
+        </div>
+        <br>
+            <div style="text-align: justify; ">        <p style="margin-left: 5%; font-size: 20px;margin-bottom: 0;"> Email</p> 
+            <input type="text" placeholder="Email" id="input2">
+        </div>
+
+        <div style="text-align: justify; ">
+            <p style="margin-left: 5%; font-size: 20px; margin-bottom: 0;"> Message</p> 
+           <textarea name="Message" id="textarea" cols="43" rows="4"></textarea>
+         </div>
+        <br>
+        <br>
+        <button onclick="send()" id="btn1">Send</button>
+        <button onclick="reset()" id="btn2">Reset</button>
+    <br>
+    <br><br>
+    </div>
+    <script src="ContactForm.js"></script>
+</body>
+</html>
