@@ -2,94 +2,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cross Game</title>
+    <title>Cross Game 2</title>
 </head>
-<link rel="stylesheet" href="Cross.css">
+<link rel="stylesheet" href="CrossGame2.css">
+<linkrel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 <body>
-    <div class="border" >
-        <ul style="text-align: center;" class="border-boxes">
-            <li class="border-box border-box1" id="0" onclick="circleCross(0)"></li>
-            <li class="border-box border-box2" id="1" onclick="circleCross(1)"></li>
-            <li class="border-box border-box3" id="2" onclick="circleCross(2)"></li>
-            <li class="border-box border-box4" id="3" onclick="circleCross(3)"></li>
-            <li class="border-box border-box5" id="4" onclick="circleCross(4)"></li>
-            <li class="border-box border-box6" id="5" onclick="circleCross(5)"></li>
-            <li class="border-box border-box7" id="6" onclick="circleCross(6)"></li>
-            <li class="border-box border-box8" id="7" onclick="circleCross(7)"></li>
-            <li class="border-box border-box9" id="8" onclick="circleCross(8)"></li>
-            <li class="lineCutter" id="lineCutter"></li>
+    <div class="border">
+        <ul class="border-boxes">
+            <li class="border-box border-box1" id="0" onclick="CrossCircle(0)"></li>
+            <li class="border-box border-box2" id="1" onclick="CrossCircle(1)"></li>
+            <li class="border-box border-box3" id="2" onclick="CrossCircle(2)"></li>
+            <li class="border-box border-box4" id="3" onclick="CrossCircle(3)"></li>
+            <li class="border-box border-box5" id="4" onclick="CrossCircle(4)"></li>
+            <li class="border-box border-box6" id="5" onclick="CrossCircle(5)"></li>
+            <li class="border-box border-box7" id="6" onclick="CrossCircle(6)"></li>
+            <li class="border-box border-box8" id="7" onclick="CrossCircle(7)"></li>
+            <li class="border-box border-box9" id="8" onclick="CrossCircle(8)"></li>
+            <li class="linecutter" id="linecutter"></li>
+
         </ul>
     </div>
-    <script>
-        var CIRCLE = true;
-        var T = ['','','','','','','','',''];
-        function circleCross(id){
-            var target = document.getElementById(id);
-            var check = target.innerHTML;
-            if(check === ''){
-                if(CIRCLE === true){
-                    target.innerHTML = '<p class="circle"></p>';
-                    T[id] = 'circle';
-                } else {
-                    target.innerHTML = '<p class="cross"></p>';
-                    T[id] = 'cross'; 
-                }
-                CIRCLE = !CIRCLE;
-            }
-            makeResult();
-        }
-        function makeResult(){
-            console.log(T, T[0], T[1], T[2]);
-            if(T[0] != '' && T[0] == T[1] && T[1] == T[2]){
-                (document.getElementById('lineCutter')).classList.add('lineCutter012');
-                setTimeout(function(){
-                    alert(T[0]+ ' WIN' );
-                },1000)
-            }
-            else if(T[3] != '' && T[3] == T[4] && T[4] == T[5]){
-                (document.getElementById('lineCutter')).classList.add('lineCutter345');
-                setTimeout(function(){
-                    alert(T[3]+ ' WIN' );
-                },1000)
-               
-            } else if(T[6] != '' && T[6] == T[7] && T[7] == T[8]){
-                (document.getElementById('lineCutter')).classList.add('lineCutter678');
-                setTimeout(function(){
-                    alert(T[6]+ ' WIN' );
-                },1000)
-
-            } else if(T[0] != '' && T[0] == T[4] && T[4] == T[8]){
-                (document.getElementById('lineCutter')).classList.add('lineCutter048');
-                setTimeout(function(){
-                    alert(T[0]+ ' WIN' );
-                },1000)
-            } else if(T[2] != '' && T[2] == T[4] && T[4] == T[6]){
-                (document.getElementById('lineCutter')).classList.add('lineCutter246');
-                setTimeout(function(){
-                    alert(T[2]+ ' WIN' );
-                },1000)
-            }
-            else if(T[0] != '' && T[0] == T[3] && T[3] == T[6]){
-                (document.getElementById('lineCutter')).classList.add('lineCutter036');
-                setTimeout(function(){
-                    alert(T[0]+ ' WIN' );
-                },1000)
-            }
-            else if(T[1] != '' && T[1] == T[4] && T[4] == T[7]){
-                (document.getElementById('lineCutter')).classList.add('lineCutter147');
-                setTimeout(function(){
-                    alert(T[1]+ ' WIN' );
-                },1000)
-            }
-            else if(T[2] != '' && T[2] == T[5] && T[5] == T[8]){
-                (document.getElementById('lineCutter')).classList.add('lineCutter258');
-                setTimeout(function(){
-                    alert(T[2]+ ' WIN' );
-                },1000)
-            }
-        
-        }
-
-    </script>
+    <button></button>
+    <script src="CrossGame2.js"></script>
 </body>
 </html>
