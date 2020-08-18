@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Img</title>
+</head>
+<style>
+    button{
+        width: 100px;
+        height: 70px;
+        background-color: brown;
+        color: white;
+        font-weight: bold;
+        border: none;
+        display: block;
+    }
+    button:hover{
+        color: brown;
+        background-color: white;
+    }
+    #add{
+        
+        width: 1000px;
+        position: relative;
+        left: 10%;
+        bottom: 92.9%;
+    }
+    img{
+        height: 200px;
+        margin: 0;
+        width: 232px;
+    }
+</style>
+<body>
+    <button onclick='show("all")'>All</button>
+    <br>
+    <button onclick="show('Last of us')">Last Of us series</button>
+    <br>
+    <button onclick='show("FarCry")'>FarCry series</button>
+    <br>
+    <button onclick='show("God Of War")'>God Of War</button>
+    <br>
+    <button onclick='show("Prince of Persia")'>Prince of Persia series</button>
+    <br>
+    <button onclick='show("Call of Duty")'>Call of Duty series</button>
+    <br>
+    <button onclick='show("Resident Evil")'>Resident Evil series</button>
+    <br>
+    <div id="add"></div>
+    <script src="Button-Img.js"></script>
+</body>
+</html>

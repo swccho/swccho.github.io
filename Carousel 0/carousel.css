@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.myslider{
+    text-align: center;
+}
+.img1{
+    display: none;
+    width: 100%;
+}
+
+.Next{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 95%;
+    opacity: 0.3;
+}
+.Prev{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    opacity: 0.3;
+}
+a{
+    text-decoration: none;
+}
+.Prev:hover, .Next:hover{
+    color: white;
+   
+    opacity: 0.9;
+}

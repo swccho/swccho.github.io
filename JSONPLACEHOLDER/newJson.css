@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    display: table;
+}
+.sss{
+    width: 30%;
+        border: 1px solid black;
+        margin: 5px;
+        
+        padding: 10px;
+        background-color: burlywood;
+        
+}
+.title{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.body{
+    text-align:justify;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.email{
+    padding: 5px;
+}
+.cbody{
+    padding: 5px;
+    text-align: justify;
+}
