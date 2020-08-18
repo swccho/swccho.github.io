@@ -130,7 +130,7 @@ animation-name: leftToRight345;
 .linecutter048{ top: 0; height: 5; left: 0; transform: rotate(45deg); ; 
     top: 50%;}
 .linecutter246{
-     position: absolute;
+     
     height: 5;
     width: 0;
     animation-name:topTObottom246 ;
@@ -148,7 +148,7 @@ animation-name: leftToRight345;
         
     }
     100%{
-        height:100%;
+        height:500px;
     }
 }
 .linecutter036{ top: 10px; height: 480; width: 0; left:75px ;  
