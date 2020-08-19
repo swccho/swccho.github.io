@@ -1,0 +1,266 @@
+body {
+  max-width: 1165px;
+}
+
+body .fix {
+  text-align: center;
+  -webkit-box-shadow: 0 0 5px rgba(59, 43, 91, 0.7);
+          box-shadow: 0 0 5px rgba(59, 43, 91, 0.7);
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+body .fix .nav a {
+  color: #b6a5a5;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body .fix .nav a:hover {
+  font-size: large;
+  color: white;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+body .fix .icon {
+  font-size: 20px;
+}
+
+body .fix .icon .icon1 {
+  padding: 10px;
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+body .fix .icon .icon1:hover {
+  color: white;
+  background-color: #3b5998;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .fix .icon .icon2 {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+body .fix .icon .icon2:hover {
+  color: white;
+  background-color: #1DA1F2;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .fix .icon .icon3 {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+body .fix .icon .icon3:hover {
+  color: white;
+  background-color: #2867B2;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .fix .icon .icon4 {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+body .fix .icon .icon4:hover {
+  color: white;
+  background-color: #D44638;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .fix .icon .icon5 {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+body .fix .icon .icon5:hover {
+  color: white;
+  background-color: green;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .fix .icon .icon6 {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+body .fix .icon .icon6:hover {
+  color: white;
+  background-color: #E1306C;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .col-10 {
+  margin-left: 14.5%;
+}
+
+body .col-10 .background {
+  background-image: url(Back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body .col-10 .background .name {
+  font-style: italic;
+  position: absolute;
+  top: 2%;
+  left: 37%;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+body .col-10 .background .name .DP1 {
+  text-shadow: 0px 1px 4px #000000;
+  width: 730px;
+}
+
+body .col-10 .image-gallery1 {
+  margin-left: 26.5px;
+}
+
+body .col-10 .image-gallery1 .title1 {
+  padding: 10px;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+body .col-10 .image-gallery1 .title1 .title1:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 20px;
+}
+
+body .col-10 .image-gallery2 {
+  margin-left: 26.5px;
+}
+
+body .col-10 .image-gallery2 .title2 {
+  padding: 10px;
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+body .col-10 .image-gallery2 .title2 .title2:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 20px;
+}
+
+body .col-10 .image-gallery3 {
+  margin-left: 26.5px;
+}
+
+body .col-10 .image-gallery3 .title3 {
+  padding: 10px;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  background-color: white;
+  color: black;
+  border: 5px solid black;
+  cursor: pointer;
+}
+
+body .col-10 .image-gallery3 .title3:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 20px;
+}
+
+body .col-10 .image-gallery4 {
+  margin-left: 26.5px;
+}
+
+body .col-10 .image-gallery4 .title4 {
+  padding: 10px;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+body .col-10 .image-gallery4 .title4:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 20px;
+}
+
+body .col-10 .col-12img {
+  margin-left: 27px;
+}
+
+body .col-10 .col-12img .resimg {
+  position: absolute;
+  left: 10%;
+  opacity: .5;
+  top: 10%;
+  font-weight: 900;
+  color: black;
+  letter-spacing: 5px;
+  font-style: italic;
+}
+
+body .col-10 .col-12img .resimg .resimg:hover {
+  opacity: 1;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+body .col-10 .col-12img .Intro {
+  width: 700px;
+  font-size: 20px;
+  position: relative;
+  left: 90px;
+  bottom: 35%;
+  font-style: italic;
+  padding: 10px;
+}
+
+body .col-10 .col-12pro {
+  position: relative;
+  left: 80px;
+}
+
+body .col-10 #contacts {
+  margin-left: 7%;
+}
+
+body .col-10 #contacts input {
+  width: 100%;
+  height: 8%;
+  font-family: cursive;
+  outline: none;
+}
+
+body .col-10 #contacts textarea {
+  outline: none;
+}
+/*# sourceMappingURL=Style.css.map */
