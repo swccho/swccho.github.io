@@ -1,0 +1,29 @@
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.boxes .box {
+  width: 300px;
+  font-size: 20px;
+  margin-right: 52px;
+  margin-left: 52px;
+  margin-bottom: 40px;
+  height: 200px;
+  background-color: #ececec;
+}
+
+.boxes .box p {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.boxes .box .btn2 {
+  position: relative;
+  left: 70%;
+}
+/*# sourceMappingURL=noteMe.css.map */

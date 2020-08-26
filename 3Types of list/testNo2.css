@@ -1,0 +1,36 @@
+.MainBox {
+  border: 5px solid grey;
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 80%;
+  top: 2%;
+}
+
+.MainBox .btn {
+  position: relative;
+  top: 35%;
+}
+
+.boxes {
+  position: relative;
+  width: 1090px;
+  margin-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.boxes .box {
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+  border: 5px solid;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=testNo2.css.map */
