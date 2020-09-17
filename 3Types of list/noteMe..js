@@ -52,9 +52,8 @@ function addnewItems(type){
     console.log('')
     var ala = [];
     $('#myModal3').find('.allItems').each(function(i, v){
-        console.log($(v).find('.Items').val());
-        console.log($(v).find('.Price').val());
         if($(v).find('.Items').val() != '' && $(v).find('.Price').val() != ''){
+            console.log(v)
             ala.push({
                 title: $(v).find('.Items').val(),
                 Price: $(v).find('.Price').val(),

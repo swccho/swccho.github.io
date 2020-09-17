@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thriller</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js">
+    <link rel="stylesheet" href="s_movies=thirller.scss">
+    <link rel="stylesheet" href="s_movies=thirller.css">
+    <link rel="stylesheet" href="s_movies=thirller.css.map">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top border-bottom">
+    <a class="navbar-brand" href="#">AHS</a>
+    <ul class="navbar-nav" style="position: relative; left: 10%;">
+      <li class="nav-item">
+        <a class="nav-link" href="../../S_Movies.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown">Genre</a>
+        <div class="dropdown-menu">
+          <table>
+            <tr>
+              <td><a href="../Action/s_movies=Action.html"> Action </a></td>
+              <td><a href="../Adventure/s_movies=adventure.html">Adventure</a></td>
+              <td><a href="../Animation/s_movies=animation.html">Animation</a></td>
+              <td><a href="../BioGraphy/s_movies=biography.html">Biography</a></td>
+             </tr>
+             <tr>
+               <td class="disabled"><a href="#">Costume</a></td>
+               <td><a href="../Comedy/s_movies=comedy.html">Comedy</a></td>
+               <td><a href="../Crime/s_movies=crime.html">Crime</a></td>
+               <td><a href="../Documentary/s_movies=documentary.html">Documentary</a></td>
+              </tr>
+              <tr>
+               <td><a href="../Drama/s_movies=drama.html">Drama</a></td>
+               <td><a href="../Family/s_movies=family.html">Family</a></td>
+               <td><a href="../Fantasy/s_movies=fantasy.html">Fantasy</a></td>
+               <td><a href="../GAme-Show/s_movies=gameshow.html">Game-show</a></td>
+              </tr>
+              <tr>
+               <td><a href="../History/s_movies=history.html">History</a></td>
+               <td><a href="../Horror/s_movies=horror.html">Horror</a></td>
+               <td><a href="../Music/s_movies=music.html">Music</a></td>
+               <td><a href="../Kung-fu/s_movies=kung-fu.html">Kung-Fu</a></td>
+              </tr>
+              <tr>
+               <td><a href="../Mystery/s_movies=mystery.html">Mystery</a></td>
+               <td><a href="../Romance/s_movies=romance.html">Romance</a></td>
+               <td><a href="../Sci-fi/s_movies=sci-fi.html">Sci-Fi</a></td>
+               <td><a href="../Sports/s_movies=sports.html">Sports</a></td>
+              </tr>
+              <tr>
+               <td><a href="s_movies=thirller.html">Thirller</a></td>
+               <td><a href="#">TV Show</a></td>
+               <td><a href="../War/s_movies=war.html">War</a></td>
+               <td><a href="../Western/s_movies=western.html">Western</a></td>
+              </tr>
+          </table>
+          </div>
+        </div>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="../../Country/S_Movies=Country.html">Movies</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="../../ReLease Year/S_Movies=Release.html">Release</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../../Most Watched/s_movies=MostWatched.html">Most Watched</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Request</a>
+      </li>
+    </ul>
+      <form class="form-inline ml-2" action="/action_page.php" style="position: relative; left: 12%;">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search">
+          <div class="input-group-append ">
+            <span class="input-group-text"><i class="fa fa-search"></i></span>
+          </div>
+        </div>
+      </form>
+    
+  </nav>
+  <!--  -->
+  <div>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title text-muted" id="exampleModalLabel">Request Movie</h5>
+    
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    
+    
+  </div>
+  <div class="modal-body">
+    <p class="text-muted" style="font-size: 14px;"> Most of the movie already exist. Please use our search form before sending new request !</p>
+    <div class="form-group">
+      <input type="email" name="email" class="form-control" placeholder="Your Email">
+    </div>
+    <div class="form-group">
+      <input type="text" name="movie name" class="form-control" placeholder="Movie Name">
+    </div>
+    <div class="form-group">
+     <textarea name="descirbe" id="discirbe" class="form-control" rows="5" placeholder="Describe about your movie.Ex: Release date, link IMDb if possible."></textarea>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary" data-dismiss="modal">Send</button>
+  </div>
+</div>
+</div>
+</div>
+
+  </div>
+  <!--  -->
+  <div class="container-fluid mt-5">
+      <br>
+    <p class="text-white display-4">Thirller Movies</p>
+
+        <div class="container ">
+            
+            <div class="Thirller_Movies">
+
+            </div>
+            
+        </div>
+  </div>
+  <br><br>
+  <footer class="container-fluid text-light">
+    <div class="row">
+      <div class="col-6">
+        <h1 class="p-3 " >A H S</h1>
+        <p>
+          A H S - Free movies online, here you can watch movies online in high quality for free without annoying of advertising, 
+          just come and enjoy your movies online. A H S
+
+        </p>
+        <p><i class="fa fa-twitter text-info"></i> 
+          Connect with us on twitter
+         </p>
+         <small>
+          Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.</small>
+      </div>
+      <div class="col-6 mt-3  flex">
+        <div>
+          <h5 class="ml-5">Movies</h5>
+            <ul class="footerlist">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Adventure</a></li>
+              <li><a href="#">Kungfu</a></li>
+              <li><a href="#">Thirller</a></li>
+              <li><a href="#"> Sci-Fi</a></li>
+              <li><a href="#">Comedy</a> </li>
+            </ul>
+        </div>
+        <div>
+          <h5 class="ml-5">Country</h5>
+            <ul class="footerlist2">
+              <li><a href="#">BANGLADESH</a></li>
+              <li><a href="#">USA</a></li>
+              <li><a href="#">INDIA</a></li>
+              <li><a href="#">CANADA</a></li>
+              <li><a href="#">VUTAN</a></li>
+              <li><a href="#">TAIWAN</a></li>
+            </ul>
+      </div>
+      <div>
+        <h5 class="ml-5">HELP</h5>
+          <ul class="footerlist3">
+            <li><a href="#">Request</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">DCMA</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+    </div>
+      </div>
+      
+    </div>
+    <div class="bg-dark p-5 text-center">
+      <p>Created by <a href="#">AHS</a></p>
+    </div>
+    
+  </footer>
+  <script src="s_movies=thirller.js"></script>
+</body>
+</html>

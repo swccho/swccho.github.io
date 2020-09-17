@@ -1,0 +1,159 @@
+.imgPrv {
+  position: absolute;
+  left: 3%;
+  top: 60%;
+}
+
+.container-fluid1 {
+  background-color: blanchedalmond;
+  position: relative;
+  height: 800px;
+}
+
+.btn1, .btn2 {
+  background-color: blanchedalmond;
+  color: grey;
+}
+
+@media screen and (max-width: 720px) {
+  .btn1, .btn2 {
+    position: relative;
+    left: 10%;
+    bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .btn1, .btn2 {
+    position: relative;
+    left: 10%;
+    bottom: 30px;
+  }
+}
+
+.btn1:hover {
+  background-color: #0275d8;
+  color: white;
+}
+
+.btn2:hover {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.DinVoice {
+  position: relative;
+  left: 38%;
+}
+
+@media screen and (max-width: 720px) {
+  .DinVoice {
+    position: relative;
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .DinVoice {
+    position: relative;
+    left: 23%;
+  }
+}
+
+.row2 {
+  margin-top: 6%;
+}
+
+.row2 .col-12 .p1 {
+  position: absolute;
+  left: 25%;
+  font-size: 50px;
+  color: #555757;
+}
+
+.row2 .col-12 .p2 {
+  position: absolute;
+  left: 30%;
+  top: 80px;
+  font-size: 18px;
+  color: #555757;
+}
+
+.row2 .col-12 .btn {
+  position: absolute;
+  left: 42%;
+  top: 130px;
+}
+
+@media screen and (max-width: 962px) {
+  .row2 .col-12 .p1 {
+    position: absolute;
+    left: 25%;
+    font-size: 40px;
+  }
+  .row2 .col-12 .p2 {
+    position: absolute;
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .row2 .col-12 .p1 {
+    position: absolute;
+    left: 25%;
+    font-size: 30px;
+  }
+  .row2 .col-12 .p2 {
+    text-align: justify;
+    position: absolute;
+    left: 20%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .row2 .col-12 .p1 {
+    position: absolute;
+    left: 25%;
+    font-size: 25px;
+  }
+  .row2 .col-12 .p2 {
+    text-align: justify;
+    position: absolute;
+    left: 17%;
+  }
+  .row2 .col-12 .p3 {
+    margin-top: 20px;
+    left: 30%;
+  }
+}
+
+.HomepageFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 70%;
+}
+
+.HomepageFlex .div {
+  text-align: center;
+  width: 390px;
+  margin-left: 3%;
+  padding: 30px;
+}
+
+.HomepageFlex .div1 div, .HomepageFlex .div2 div, .HomepageFlex .div3 div {
+  color: #A9A9A9;
+  text-align: justify;
+}
+
+.HomepageFlex .div1 div h2, .HomepageFlex .div2 div h2, .HomepageFlex .div3 div h2 {
+  text-align: center;
+}
+/*# sourceMappingURL=DwetechInvoice.css.map */

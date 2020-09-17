@@ -1,0 +1,153 @@
+// HomePage First Container-fluid
+
+.imgPrv{
+    position: absolute;
+    left: 3%;
+    top: 60%;
+
+}
+.container-fluid1{
+    background-color: blanchedalmond;
+    position: relative;
+    height: 800px;
+    
+}
+.btn1, .btn2{
+    background-color: blanchedalmond;;
+    color: grey;
+    
+}
+@media screen and (max-width:720px){
+    .btn1, .btn2{
+        position: relative;
+        left: 10%;
+        bottom: 20px;
+    }
+}
+@media screen and (max-width:580px){
+    .btn1, .btn2{
+    position: relative;
+    left: 10%;
+    bottom: 30px;
+}
+}
+.btn1:hover{
+    background-color: #0275d8;
+    color: white;
+}
+.btn2:hover{
+    background-color: #f0ad4e;
+    color: white;
+}
+.DinVoice{
+    position: relative;
+    left: 38%;
+    
+}
+@media screen and (max-width:720px){
+    .DinVoice{
+        position: relative;
+        left: 30%;
+    }
+}
+@media screen and (max-width:580px){
+    .DinVoice{
+    position: relative;
+    left: 23%;
+}
+}
+.row2{
+    margin-top: 6%;
+   
+        .col-12{
+           
+                .p1{
+                    position: absolute;
+                    left: 25%;
+                    font-size: 50px;
+                    color: rgb(85, 87, 87);
+                }
+                .p2{
+                    position: absolute;
+                    left: 30%;
+                    top: 80px;
+                    font-size: 18px;
+                    color: rgb(85, 87, 87);
+                }
+                .btn{
+                    position: absolute;
+                    left: 42%;
+                    top: 130px;
+                }
+                @media screen and (max-width:962px){
+                    .p1{
+                        position: absolute;
+                        left: 25%;
+                        font-size: 40px;
+                    }
+                    .p2{
+                        position: absolute;
+                        left: 25%;
+                    }
+                }
+                @media screen and (max-width:720px){
+                    .p1{
+                        position: absolute;
+                        left: 25%;
+                        font-size: 30px;
+                    }
+                    .p2{
+                        text-align: justify;
+                        position: absolute;
+                        left: 20%;
+                        margin-bottom: 10px;
+                    }
+                }
+                @media screen and (max-width:580px){
+                    .p1{
+                        position: absolute;
+                        left: 25%;
+                        font-size: 25px;
+                    }
+                    .p2{
+                        text-align: justify;
+                        position: absolute;
+                        left: 17%;
+                    }
+                    .p3{
+                        margin-top: 20px;
+                        left: 30%;
+                    }
+                }
+        }
+        
+}
+
+// HomePage Second Container-fluid
+.HomepageFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 70%;
+
+    
+        .div{
+            text-align: center;
+            width: 390px;
+            margin-left: 3%;
+            padding: 30px;
+            
+        }
+        .div1, .div2, .div3{
+            div{
+                color: #A9A9A9;
+                h2{
+                    text-align: center;
+                }
+                text-align: justify;
+            }
+        }
+
+}
+
+

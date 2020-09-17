@@ -1,0 +1,85 @@
+.nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-item table tr {
+  padding: 10px;
+  margin: 5px;
+}
+
+.nav-item table tr td {
+  font-size: 12px;
+  padding: 10px;
+  margin: 5px;
+  text-align: left;
+}
+
+.nav-item table tr td a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-item table tr td a:hover {
+  text-decoration: none;
+  color: #FF6347;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.music_Movies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.music_Movies .item {
+  margin: 10px;
+  margin-left: 22px;
+}
+
+.music_Movies .item img {
+  height: 200px;
+  width: 150px;
+}
+
+.music_Movies .item .movie_Title_Act {
+  width: 150px;
+}
+
+footer {
+  background-color: #2e3131;
+  padding: 10px;
+}
+
+footer .row .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .row .flex div {
+  border-left: 5px solid;
+}
+
+footer .row .flex div .footerlist, footer .row .flex div .footerlist2, footer .row .flex div .footerlist3 {
+  list-style-type: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  text-align: right;
+}
+
+footer .row .flex div .footerlist li a, footer .row .flex div .footerlist2 li a, footer .row .flex div .footerlist3 li a {
+  color: white;
+}
+
+footer .row .flex div .footerlist li a:hover, footer .row .flex div .footerlist2 li a:hover, footer .row .flex div .footerlist3 li a:hover {
+  text-decoration: none;
+  color: #FF6347;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+/*# sourceMappingURL=s_movies=music.css.map */

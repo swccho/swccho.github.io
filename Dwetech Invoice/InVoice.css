@@ -1,0 +1,29 @@
+.MainFormbg {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.MainFormbg .btns {
+  border-radius: 5px;
+  color: grey;
+}
+
+.MainFormbg .row1 {
+  padding: 20px;
+}
+
+.col {
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-bottom: none;
+  margin-top: 1px;
+}
+
+.col p {
+  margin-bottom: 0;
+  text-align: center;
+  border-bottom: 2px solid;
+  font-weight: bold;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=InVoice.css.map */

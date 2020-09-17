@@ -14,7 +14,7 @@ function addNewItem(type){
         };
         $('#myModal').find('textarea[name="title"]').val('');
         $('#myModal').modal('hide')
-    } else if(type === 2){
+./    } else if(type === 2){
         var second = $('#myModal2').find('input[name="title"]').val();
         var items = [];
        $('#myModal2').find('.eachItem').each(function(i, v){
@@ -87,17 +87,17 @@ function removeThisItem(trigger){
 }
 function calculateTotal(){
     var Total = 0;
-    $('#myModal3').find('.eachItem2').each(function(i, v){
-        if($(v).find('.itemPrice').val() != ''){
+    $('.listItem2').find('.eachItem2').each(function(i, v){
             var price = $(v).find('.itemPrice').val();
             if(parseFloat(price) != NaN){
                 Total = Total + parseFloat(price);  
             } else {
                 $(v).find('.itemPrice').val(0);
             }
-        };
-    });
+        });
+    
     $('#total').html(Total);
+    
 }
 function renderItems(){
     var Notes = localStorage.getItem('Notes')

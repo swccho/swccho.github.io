@@ -1,0 +1,39 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+   nav{
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 4;
+            li{
+                float: right;
+                margin-right: 40px;
+                    a{
+                        display: block;
+                        color: white;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        text-decoration: none;
+                        color: tomato;
+                        transition: .3s ease-out;
+
+                    }
+            }
+            
+    }
+   }
+
+   
+}

@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+    padding: 0;
+   nav{
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 4;
+            li{
+                float: right;
+                margin-right: 40px;
+                    a{
+                        display: block;
+                        color: white;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        text-decoration: none;
+                        color: tomato;
+                        transition: .3s ease-out;
+
+                    }
+            }
+            
+    }
+   }
+    
+// nav Start
+.bg-img{
+    background-image: url(https://www.wallpapers4u.org/wp-content/uploads/batman_arkham_origins_joker_red_cap_warner_bros_interactive_entertainment_devil_gotham_gotemsky_ripper_mr_jay_96368_1920x1080.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #333;
+    height: 700px;
+    border: 1px solid white;
+    
+}
+.bigCarousel{ 
+    height: 700px;
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    .item{
+            position: relative;
+                .movieTitle{
+                    height:0;
+                    width:0;
+                    z-index: 0;
+                    padding-top:35% ;
+                    position: absolute;
+                    align-items: center;
+                    top: 50%;
+                    left: 50%;
+                    opacity: 0;
+                    display: inline-block;
+                    
+                    -moz-transition: all 0.2s linear;
+                    -webkit-transition: all 0.2s linear;
+                    transition: all 0.2s linear;
+                }
+        }
+        .item:hover .movieTitle{
+            -moz-transition: all 0.2s linear;
+            -webkit-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: black;
+            opacity: .8;
+            
+        }
+
+}
+.movieCount{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    
+    color: white;
+        div{
+            height: 250px;
+            width: 329px;
+            text-align: center;
+               
+                h2{
+                    margin-top: 20px;
+                }
+               
+        }
+}
+}
+
+
+
+.container-fluid2{
+    .ActionMovies{
+        position: relative;
+        .item{
+            position: relative;
+                .movieTitle{
+                    height:0;
+                    width:0;
+                    z-index: 0;
+                    padding-top:35% ;
+                    position: absolute;
+                    align-items: center;
+                    top: 50%;
+                    left: 50%;
+                    opacity: 0;
+                    display: inline-block;
+                    
+                    -moz-transition: all 0.2s linear;
+                    -webkit-transition: all 0.2s linear;
+                    transition: all 0.2s linear;
+                }
+        }
+        .item:hover .movieTitle{
+            -moz-transition: all 0.2s linear;
+            -webkit-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: black;
+            opacity: .8;
+            
+        }
+    }
+    
+}   
+
+.container-fluid3{
+    .LatestMovies{
+        position: relative;
+        .item{
+            position: relative;
+                .movieTitle{
+                    height:0;
+                    width:0;
+                    z-index: 0;
+                    padding-top:35% ;
+                    position: absolute;
+                    align-items: center;
+                    top: 50%;
+                    left: 50%;
+                    opacity: 0;
+                    display: inline-block;
+                    
+                    -moz-transition: all 0.2s linear;
+                    -webkit-transition: all 0.2s linear;
+                    transition: all 0.2s linear;
+                }
+        }
+        .item:hover .movieTitle{
+            -moz-transition: all 0.2s linear;
+            -webkit-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: black;
+            opacity: .8;
+            
+        }
+    }
+}
+.container-fluid4{
+    .SciFiMovies{
+        position: relative;
+        .item{
+            position: relative;
+                .movieTitle{
+                    height:0;
+                    width:0;
+                    z-index: 0;
+                    padding-top:35% ;
+                    position: absolute;
+                    align-items: center;
+                    top: 50%;
+                    left: 50%;
+                    opacity: 0;
+                    display: inline-block;
+                    
+                    -moz-transition: all 0.2s linear;
+                    -webkit-transition: all 0.2s linear;
+                    transition: all 0.2s linear;
+                }
+        }
+        .item:hover .movieTitle{
+            -moz-transition: all 0.2s linear;
+            -webkit-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: black;
+            opacity: .8;
+            
+        }
+    }
+}
+
+.container-fluid5{
+    .ThrillerMovies{
+        position: relative;
+        .item{
+            position: relative;
+                .movieTitle{
+                    height:0;
+                    width:0;
+                    z-index: 0;
+                    padding-top:35% ;
+                    position: absolute;
+                    align-items: center;
+                    top: 50%;
+                    left: 50%;
+                    opacity: 0;
+                    display: inline-block;
+                    
+                    -moz-transition: all 0.2s linear;
+                    -webkit-transition: all 0.2s linear;
+                    transition: all 0.2s linear;
+                }
+        }
+        .item:hover .movieTitle{
+            -moz-transition: all 0.2s linear;
+            -webkit-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: black;
+            opacity: .8;
+            
+        }
+    }
+}
+
+
+.container-fluid6{
+    .RomanticMovies{
+        position: relative;
+        .item{
+            position: relative;
+                .movieTitle{
+                    height:0;
+                    width:0;
+                    z-index: 0;
+                    padding-top:35% ;
+                    position: absolute;
+                    align-items: center;
+                    top: 50%;
+                    left: 50%;
+                    opacity: 0;
+                    display: inline-block;
+                    
+                    -moz-transition: all 0.2s linear;
+                    -webkit-transition: all 0.2s linear;
+                    transition: all 0.2s linear;
+                }
+        }
+        .item:hover .movieTitle{
+            -moz-transition: all 0.2s linear;
+            -webkit-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: black;
+            opacity: .8;
+            
+        }
+    }
+}

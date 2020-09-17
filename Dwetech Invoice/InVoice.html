@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dwetech InVoice</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0/scss/bootstrap.scss">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="InVoice.scss">
+    <link rel="stylesheet" href="InVoice.css.map">
+    <link rel="stylesheet" href="InVoice.css">
+</head>
+<body style="margin-left: 5%; margin-right: 5%;">
+    <nav class="navbar navbar-expand-lg navbar-light   mt-5" style="position: relative;">
+        <a class="navbar-brand" href="#"><img src="Dinvoice.png" alt="" width="200px"></a>
+
+        <div class="btn-group" style="position: absolute; left: 90%;">
+            <button type="button" class="btn btn-outline-secondary">Swccho263</button>
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+              <span class="caret"></span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a>
+              <br>
+            </div>
+        </div>
+      </nav>
+      <br>
+      <div class="">
+        <h1>Invoice</h1>
+        <hr>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Invoice</a></li>
+              <li class="breadcrumb-item active" aria-current="page">create Invoice</li>
+            </ol>
+          </nav>
+      </div>
+      
+      <div id="nav" style="position: absolute;  width: 190px; cursor: pointer;"  >
+        <p onclick="showNav()"><i class="fa fa-list"></i></p>
+            <nav class="nav flex-column">
+                <a class="nav-link bg-danger text-light" href="#"><i class="fa fa-plus"></i> Add Invoice</a>
+                <br>
+                <br>
+                <a class="nav-link" href="#"><i class="fa fa-home"></i> DashBoard</a>
+                <br>
+                <a class="nav-link" href="invoices.html"><i class="fa fa-book"></i> Invoices</a>
+                <br>
+                <a class="nav-link" href="#"><i class="fa fa-user"></i> Contacts</a>
+                <br>
+                <a class="nav-link" href="#"><i class="fa fa-wrench"></i> Setting</a>
+                <br>
+            </nav>
+
+      </div>
+      <div class="container-fluid" style="margin-left: 20px;">
+        <div class="MainFormbg">
+            
+                <div class="All-buttons">
+                        <button type="button" class="btn btn-light btns border ">Preview</button>
+                        &nbsp;
+                        <button type="button" class="btn btn-light  btns border ">Print</button>
+                        &nbsp;
+                        <button type="button" class="btn btn-light  btns border">PDF</button>
+                        &nbsp;
+                        <button type="button" class="btn btn-light  btns border ">Send</button>
+                        &nbsp;
+                        <button type="button" class="btn btn-light  btns border ">Payment</button>
+                        &nbsp;
+                        <a href="" type="button"   class="btn   btns border btn-info text-light" style="float: right;"  onclick="getAllItems()">Save</a>
+                </div>
+                <div class="card mt-2 shadow">
+                    <div class="row row1">
+                        <div class="col-6">
+                            <form action="" id="firstFromForm">
+                                <h6 class="text-muted">From</h6>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="FormInput" placeholder="Enter Your First Name">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="address" id="textareaAddressFrom" class="form-control" cols="48.5" rows="2" placeholder="YOUR ADDRESS"></textarea>
+                                </div>
+                                <h6 class="text-muted">To</h6>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="ToInput" placeholder="Enter Name">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="address" id="FormTotextareaAddress" class="form-control" cols="48.5" rows="2" placeholder=" ADDRESS"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-6">
+                            <form action="" id="SecondFromForm">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                        <label class="form-check-label" for="inlineCheckbox1">Add Logo?</label>
+                                      </div>
+                                      <div id="checkToggle">
+                                          <input type="file">
+                                      </div>
+                                      <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="INVOICE" id="INVOICE_NAME" style="font-size: 30px;">
+                                      </div>
+                                      <br>
+                                      <div class="form-group">
+                                        <label class="" for="InvoiceSerial">Invoice Serial:</label>
+                                       <input class="form-control" type="number" id="InvoiceSerial" name="InvoiceDate" >
+                                 </div>
+                                 <br>
+                                      <div class="form-group">
+                                             <label class="" for="InvoiceDate">Invoice Date:</label>
+                                            <input class="form-control" type="date" id="InvoiceDate" name="InvoiceDate" >
+                                      </div>
+                                      <br>
+                                      <div class="form-group">
+                                        <label class="" for="DueDate">Due Date:</label>
+                                       <input class="form-control" type="date" id="DueDate" name="DueDate">
+                                 </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row row2 p-2" style="position: relative;">
+                        <div class="col-12">
+                            <button class="btn btn-success mb-3 " onclick="addList(this)"><i class="fa fa-plus-circle"></i> Add List</button>
+                            <div id="formList">
+                                
+                                    <form class="mb-3" id="From-Group" class="From-Group" >
+                                        <div class="form-row">
+                                          <div class="col">
+                                              <p >Item</p>
+                                            <select name="Select" id="Select" class="form-control selectOption" style="border: none;">
+                                                <Option>Product</Option>
+                                                <Option>Service</Option>
+                                                <Option>Expense</Option>
+                                                <Option>Hours</Option>
+                                                <Option>Days</Option>
+                                            </select>
+                                          </div>
+                                          <div class="col">
+                                              <p >Description</p>
+                                              <textarea name="textarea" id="textareaDes" placeholder="Des" class="form-control textareaDes" rows="1" style="border: none; resize: none;"></textarea>
+                                          </div>
+                                          <div class="col">
+                                              <p>UnitPrice</p>
+                                                <input  type="number" class="form-control UnitPrice calculateMe"onkeyup="Calculate()" placeholder="U.P." style="border: none;"  >
+                                          </div>
+                                          <div class="col">
+                                            <p>Quantity</p>
+                                            <input type="number" class="form-control Quantity calculateMe" onkeyup="Calculate()" style="border: none;" placeholder="Q.T">
+                                        </div>
+                                        <div class="col">
+                                            <p>Amount</p>
+                                            <input class="form-control Amount" type="text" id="Amount" style="border: none;">
+                                        
+                                        </div>
+                                        </div>
+                                        
+                                      </form>
+                            </div> 
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    
+                    <div class="row row3 p-3" >
+                        
+                        <div class="col-6">
+                            <h4>Invoice Notes</h4>
+                            <br>
+                            <textarea class="form-control" name="" id="invoiceNotes" cols="40" rows="7"></textarea>
+                        </div>
+                        <div class="col-6" style="padding-top: 60px;">
+                            <table class="table table-hover table-striped">
+                                <tr>
+                                    <td><b>Total</b></td>
+                                    <td>
+                                        <span>$</span>
+                                        <span id="Result" ></span>
+                                    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Amount Paid</b></td>
+                                    <td>
+                                        <span>$</span>
+                                        <span id="AmountPaid"></span>
+                                    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Balance Due</b></td>
+                                    <td>
+                                        <span>$</span>
+                                        <span id="Due"></span>
+                                    
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <a href="" type="button" class="btn   btns border btn-info text-light" style="float: right;"  onclick="getAllItems()">Save</a>
+        </div>
+      </div>
+      <br><br><br><br><br><br>
+      <script src="InVoice.js"></script>
+</body>
+</html>

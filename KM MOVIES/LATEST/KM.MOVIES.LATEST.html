@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../scss/KM.MOVIES.LATEST.scss">
+    <link rel="stylesheet" href="../css/KM.MOVIES.LATEST.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    
+</head>
+<body>
+    <nav>
+        <ul class="">
+            <li style="float: left; font-size: 30px; position: absolute; top: -10px;"><a href="#"><span class="text-info">K M</span>  MOVIES</a></li>
+            <li class="item item1"><a class="" href="../Browse/Browse.html">Browse Movies</a></li>
+            <li class="item item2"><a class="" href="KM.MOVIES.LATEST.html">Latest</a></li>
+            <li class="item item3"><a class="" href="../KM.Movies.html">Home</a></li>
+            
+        </ul>
+    </nav>
+    <br><br>
+    <div class="bg-img">
+        <div class="bg-input shadow">
+
+        </div>
+        <div class="input-groupss">
+            <form method="get">
+                <div class="form-group">
+                    <input type="text" name="query_term" class="form-control" placeholder="Search" style="width: 100%; height: 50px;">
+                </div>
+                <div class="input-group" style="width: 80%;">
+                     <select name="genre" id="genre" class="form-control" style="border-radius: 10px;">
+                        <option value="">Select Genre</option>
+                        <option value="Action">Action</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Animation">Animation</option>
+                        <option value="Biography">Biography</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Crime">Crime</option>
+                        <option value="Documentary">Documentary</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Family">Family</option>
+                        <option value="Fantasy">Fantasy</option>
+                        <option value="History">History</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Musical">Musical</option>
+                        <option value="Mystery">Mystery</option>
+                        <option value="Romantic">Romantic</option>
+                        <option value="Sci-Fi">Sci-Fi</option>
+                        <option value="Thriller">Thriller</option>
+                        <option value="War">War</option>
+                        <option value="Western">Western</option>
+                     </select>
+                     &nbsp;&nbsp;
+                     <select name="minimum_rating" id="rating" class="form-control" style="border-radius: 10px;">
+                         <option value="">Rating</option>
+                         <option value="1">1</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5</option>
+                         <option value="6">6</option>
+                         <option value="7">7</option>
+                         <option value="8">8</option>
+                         <option value="9">9</option>
+                     </select>
+                     &nbsp;&nbsp;
+                     <button type="submit" class="form-control btn btn-info" style="border-radius: 10px;">
+                         Search
+                     </button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container-fluid container-fluid1">
+        <div class="LatestMovie" id="LatestMovie"></div>
+        <a class="btn btn-success" href="javascript:prevPage()" id="btn_prev">Prev</a>
+        <a class="btn btn-success" href="javascript:nextPage()" id="btn_next">Next</a>
+        <br>
+        <br>
+
+        <button class="btn btn-info disabled">page:</button> <span class="btn btn-dark disabled" id="page"></span>
+    </div>
+    <br>
+    
+    <br><br>
+
+    <footer class="p-5 mt-5 bg-dark">
+        <h1 class="display-4 text-light text-center" style="font-weight: bold;"><span class="text-info">K M</span> <span>MOVIES</span></h1>
+        <hr>
+        <h5 class="copyright text-light text-center">
+            ©2020 A H S, All Rights Reserved. Designed by A H S.
+        </h5>
+    </footer>
+    <script src="KM.MOVIES.LATEST.js"></script>
+</body>
+</html>

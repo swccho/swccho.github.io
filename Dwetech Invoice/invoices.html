@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoices</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0/scss/bootstrap.scss">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="row" style="margin: 3%;">
+        <div class="col-3" style=" font-size: 15px;">
+            <div class="card-body">
+                <img src="Dinvoice.png" alt="" width="200px">
+                
+                <br> <br>
+            
+            
+                <nav class="nav flex-column">
+                    <a class="nav-link bg-danger text-light" href="InVoice.html"><i class="fa fa-plus"></i> Add Invoice</a>
+                    <br>
+                    <br>
+                    <a class="nav-link" href="#"><i class="fa fa-home"></i> DashBoard</a>
+                    <br>
+                    <a class="nav-link active" href="invoices.html"><i class="fa fa-book"></i> Invoices</a>
+                    <br>
+                    <a class="nav-link" href="#"><i class="fa fa-user"></i> Contacts</a>
+                    <br>
+                    <a class="nav-link" href="#"><i class="fa fa-wrench"></i> Setting</a>
+                    <br>
+                </nav>
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="btn-group" style="float: right;">
+                <button type="button" class="btn btn-outline-secondary">Swccho263</button>
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a>
+                  <br>
+                </div>
+                <br>
+                <br>
+                
+              </div>
+              <div>
+                <h1>Invoices</h1>
+                <hr>  
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Invoice</a></li>
+                      
+                    </ol>
+                  </nav>
+                  <br>
+                  <button class="btn btn-info"><i class="fa fa-plus"></i> New Invoice</button>
+                  <br>
+                  <br>
+                  <div class="container">
+                   
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>Invoice ID</th>
+                          <th>Contact Name</th>
+                          <th>Invoice Title</th>
+                          <th>Total</th>
+                          <th>Due</th>
+                          <th>Date</th>
+                          <th>Status</th>
+                        </tr>
+                      </thead>
+                      <tbody id="addInvoicePrv">
+                      
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                  
+              </div>
+        </div>
+    </div>
+    <script src="invoices.js"></script>
+</body>
+</html>
