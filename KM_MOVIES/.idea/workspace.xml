@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bb8a830-c6b8-4c91-85b6-a8165e50afed" name="Default Changelist" comment="" />
+    <list default="true" id="5bb8a830-c6b8-4c91-85b6-a8165e50afed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../KM MOVIES/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Browse/Browse.html" beforeDir="false" afterPath="$PROJECT_DIR$/Browse/Browse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LATEST/KM.MOVIES.LATEST.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie_Details/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/Movie_Details/details.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +74,8 @@
       <workItem from="1600312933219" duration="1315000" />
       <workItem from="1600352009167" duration="4300000" />
       <workItem from="1600359210481" duration="161000" />
-      <workItem from="1600359837957" duration="536000" />
+      <workItem from="1600359837957" duration="648000" />
+      <workItem from="1600399513315" duration="351000" />
     </task>
     <servers />
   </component>
