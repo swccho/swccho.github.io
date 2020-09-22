@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sci_Fi</title>
+    <!--  SCSS  -->
+    <link rel="stylesheet" href="../scss/Sci_Fi.scss">
+    <!--  SCSS  -->
+    <!-- CSS   -->
+    <link rel="stylesheet" href="../css/Sci_Fi.css">
+    <!-- CSS   -->
+
+    <!--  BootStrap 4  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--  Bootstrap 4  -->
+
+    <!--  Animate.css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--  Animate.css  -->
+
+    <!--  Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!--  Font Awesome  -->
+
+</head>
+<body class="bg-dark">
+<!--Navbar-->
+<nav>
+    <h1 class="logo text-light ">S_R Movies</h1>
+    <ul class="nav-links">
+
+        <a href="Index.html">Home</a>
+        <a href="latest.html">Latest</a>
+        <a href="browse.html">Browse</a>
+        <a href="request.html">Request</a>
+
+    </ul>
+    <h1 class="text-light" id="toggle" onclick="showMenu()"><i class="fa fa-bars" ></i></h1>
+
+</nav>
+<!--Navbar-->
+<br><br><br>
+<hr>
+<hr>
+<hr>
+<!-- Sci_Fi Movies-->
+
+<div id="listingMovies" class="listingMovies"></div>
+<br>
+<hr>
+<br>
+<div class="text-center">
+    <button class="btn btn-outline-light" onclick="PrevPage()" id="prevBtn">Prev</button>
+    <button class="btn btn-outline-light" onclick="NextPage()" id="nextBtn">Next</button>
+    <div id="page" class="btn btn-info"></div>
+</div>
+<!-- Sci_Fi Movies-->
+
+
+<br>
+<hr>
+<hr>
+<hr>
+<br><footer class="text-center text-light bg-dark p-3">
+    <h6>©2020 A H S, All Rights Reserved. Designed by A H S.</h6>
+</footer>
+<script src="../js/Sci_Fi.js"></script>
+</body>
+</html>
