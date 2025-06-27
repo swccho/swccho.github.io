@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6daad8b4-ca53-4ade-a5ff-47d46562aa4d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <updated>1751006141724</updated>
       <workItem from="1751006143119" duration="648000" />
       <workItem from="1751008118379" duration="1146000" />
-      <workItem from="1751015245862" duration="187000" />
+      <workItem from="1751015245862" duration="412000" />
     </task>
     <servers />
   </component>
