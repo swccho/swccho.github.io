@@ -1,0 +1,16 @@
+{
+  "name": "Ali Haider — Full Stack Developer",
+  "short_name": "Ali Haider",
+  "description": "Full Stack Developer specializing in Angular & Laravel. 6+ years building scalable web applications for global teams.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0d10",
+  "theme_color": "#0d0d10",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
